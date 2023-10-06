@@ -50,7 +50,7 @@ public class ValidacionAfiliado {
             return false;
         }
     }
-    public Boolean validadDocumentos(String documento)throws Exception{
+    public Boolean validarDocumentos(String documento)throws Exception{
         if (documento.length()< 7 || documento.length() > 10) {
             throw new Exception("el documento debe tener entre 7 y 10 caracteres numericos");
         }
